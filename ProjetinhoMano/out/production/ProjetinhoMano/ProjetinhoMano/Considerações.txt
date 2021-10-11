@@ -1,0 +1,12 @@
+A pasta do projeto se chamava "ProjetinhoMano" (sem as aspas), para fins de
+compatibilidade, recomendamos extrair com o mesmo nome.
+
+O projeto foi feito em JDK 16, pela IDE IntelliJ.
+
+Alunos responsáveis:
+Matheus Souza de Oliveira
+Samuel Lima Maranhão
+
+Agradecemos pela oportunidade que foi aprender durante esse período com vocês.
+Foi um prazer assistir as aulas, tirar duvidas e adquirir novos conhecimentos.
+

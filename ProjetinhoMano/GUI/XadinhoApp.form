@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="ProjetinhoMano.GUI.XadinhoApp">
+  <grid id="27dc6" binding="JPanel" layout-manager="GridLayoutManager" row-count="9" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="10" left="10" bottom="10" right="10"/>
+    <constraints>
+      <xy x="20" y="20" width="893" height="634"/>
+    </constraints>
+    <properties>
+      <enabled value="true"/>
+      <foreground color="-1"/>
+      <toolTipText value=""/>
+    </properties>
+    <border type="empty" title="" title-justification="2" title-position="1"/>
+    <children>
+      <component id="7f987" class="javax.swing.JTextArea" binding="telaDoJogo">
+        <constraints>
+          <grid row="0" column="0" row-span="6" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <minimum-size width="500" height="525"/>
+            <preferred-size width="500" height="525"/>
+            <maximum-size width="500" height="525"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-8355712"/>
+          <columns value="8"/>
+          <disabledTextColor color="-1"/>
+          <editable value="false"/>
+          <font name="Monospaced" size="26" style="1"/>
+          <foreground color="-1"/>
+          <lineWrap value="false"/>
+          <margin top="15" left="42" bottom="10" right="10"/>
+          <selectedTextColor color="-8355712"/>
+          <selectionColor color="-13421773"/>
+        </properties>
+      </component>
+      <component id="62973" class="javax.swing.JTextField" binding="entradaDeJogadas">
+        <constraints>
+          <grid row="8" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="363" height="30"/>
+          </grid>
+        </constraints>
+        <properties>
+          <focusable value="true"/>
+          <text value=""/>
+          <toolTipText value="Insira a posição desejada aqui."/>
+        </properties>
+      </component>
+      <component id="8f2e5" class="javax.swing.JButton" binding="desistirButton" default-binding="true">
+        <constraints>
+          <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Desistir"/>
+          <toolTipText value="Clique aqui para desistir"/>
+        </properties>
+      </component>
+      <component id="ca2b1" class="javax.swing.JButton" binding="Jogar">
+        <constraints>
+          <grid row="7" column="1" row-span="2" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <alignmentY value="0.0"/>
+          <focusable value="true"/>
+          <horizontalAlignment value="0"/>
+          <text value="Jogar"/>
+          <toolTipText value="Clique aqui após escrever a posição desejada"/>
+        </properties>
+      </component>
+      <component id="2f2ec" class="javax.swing.JRadioButton" binding="Destino">
+        <constraints>
+          <grid row="5" column="1" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <horizontalAlignment value="0"/>
+          <horizontalTextPosition value="11"/>
+          <text value="Destino"/>
+        </properties>
+      </component>
+      <component id="e0f34" class="javax.swing.JRadioButton" binding="Origem">
+        <constraints>
+          <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <horizontalAlignment value="0"/>
+          <text value="Origem"/>
+        </properties>
+      </component>
+      <component id="f6bff" class="javax.swing.JLabel" binding="LabelJogada">
+        <constraints>
+          <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <horizontalAlignment value="0"/>
+          <text value="Insira qual tipo de jogada será feita"/>
+        </properties>
+      </component>
+      <component id="42abd" class="javax.swing.JLabel" binding="interfaceLabelJogada">
+        <constraints>
+          <grid row="7" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="363" height="35"/>
+          </grid>
+        </constraints>
+        <properties>
+          <horizontalAlignment value="0"/>
+          <horizontalTextPosition value="0"/>
+          <text value="Insira sua jogada abaixo conforme as instruções: letraNumero"/>
+        </properties>
+      </component>
+      <component id="1be30" class="javax.swing.JLabel" binding="VezDoJogador">
+        <constraints>
+          <grid row="6" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="363" height="16"/>
+          </grid>
+        </constraints>
+        <properties>
+          <alignmentY value="0.0"/>
+          <horizontalAlignment value="0"/>
+          <horizontalTextPosition value="0"/>
+          <text value="VezDoJogador"/>
+        </properties>
+      </component>
+      <component id="4747" class="javax.swing.JLabel" binding="InstrucoesLabel">
+        <constraints>
+          <grid row="6" column="1" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <horizontalAlignment value="0"/>
+          <horizontalTextPosition value="0"/>
+          <text value="Clique em jogar para efetuar a jogada, ou aperte enter após digitá-la"/>
+        </properties>
+      </component>
+      <component id="2cbf7" class="javax.swing.JLabel" binding="Jogador0Label">
+        <constraints>
+          <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <horizontalAlignment value="0"/>
+          <horizontalTextPosition value="0"/>
+          <text value="Brancas"/>
+          <toolTipText value="Brancas"/>
+        </properties>
+      </component>
+      <component id="95853" class="javax.swing.JLabel" binding="Jogador1Label">
+        <constraints>
+          <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <horizontalAlignment value="0"/>
+          <horizontalTextPosition value="0"/>
+          <text value="Pretas"/>
+          <toolTipText value="Pretas"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
